@@ -1,0 +1,2 @@
+/run EjectPassengerFromSeat(1)
+/run EjectPassengerFromSeat(2)

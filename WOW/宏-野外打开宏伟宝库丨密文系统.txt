@@ -1,0 +1,8 @@
+野外打开密文系统
+/run C_Garrison.GetCurrentGarrTalentTreeID=(function() return 474 end) 
+/run OrderHall_LoadUI() OrderHallTalentFrame:SetGarrisonType(111, 474);  
+/run ToggleOrderHallTalentUI();
+
+
+野外打开宏伟宝库
+/run LoadAddOn('Blizzard_WeeklyRewards'); WeeklyRewardsFrame:Show()

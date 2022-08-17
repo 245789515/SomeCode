@@ -1,0 +1,5 @@
+7塔坐骑查询宏
+/run for i=1,7 do local p,_,_,c=string.char(124),GetAchievementCriteriaInfo(15310,i,true) print(({'闭眼','鬼母','神后','邪能','魔王','威胁','双子'})[i], c and (p..'cff00ff00完成'..p..'r') or (p..'cffff0000尚未完成'..p..'r')) end 
+
+法师塔主宰36专精职业查询宏
+/run local t={52769,52764,52761,52766,52765,52758,52767,52762,52768,52763,52760,52759}for i,id in pairs(t) do local _,_,c = GetAchievementCriteriaInfoByID(15308,id)print(GetClassInfo(i),c and"\124cff00ff00完成"or"\124cffff0000未完成")end

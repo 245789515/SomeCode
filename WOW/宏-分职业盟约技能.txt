@@ -1,0 +1,94 @@
+盟约通用技能宏
+#showtooltip
+/cast 灵魂变形
+/cast 血肉铸造
+/cast 静谧之瓶
+/cast 暗影之门
+/run local I=GetItemInfo SetMacroItem(GetRunningMacro(),I"静谧之瓶")
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(),G"灵魂变形" or G"血肉铸造" or G"暗影之门")
+
+分职业12职业盟约宏(如果12个职业的盟约技能都在一个键位上, 建议使用盟约技能wa)
+#showtooltip
+/cast 憎恶附肢(通灵领主)
+/cast 失格者之梏(格里恩)
+/cast 云集之雾(温西尔)
+/cast 消亡之债(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"失格者之梏" or G"憎恶附肢" or G"云集之雾" or G"消亡之债")
+
+
+#showtooltip
+/cast 燃焰饲魂(通灵领主)
+/cast [@cursor] 极乐敕令(格里恩)
+/cast 罪孽烙印(温西尔)
+/cast 恶魔追击(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"极乐敕令" or G"燃焰饲魂" or G"罪孽烙印" or G"恶魔追击")
+
+#showtooltip
+/cast 激变蜂群(通灵领主)
+/cast 志趣相投(格里恩)
+/cast 饕餮狂乱(温西尔)
+/cast 万灵之召(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"志趣相投" or G"激变蜂群" or G"饕餮狂乱" or G"万灵之召")
+
+#showtooltip
+/cast 邪恶新星(通灵领主)
+/cast 晋升者之赐(格里恩)
+/cast 控心术(温西尔)
+/cast 法夜守护者(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"晋升者之赐" or G"邪恶新星" or G"控心术" or G"法夜守护者")
+
+#showtooltip
+/cast 征服者之锤(通灵领主)
+/cast 圣洁鸣钟(格里恩)
+/cast 红烬圣土(温西尔)
+/cast 仲夏祝福(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"圣洁鸣钟" or G"征服者之锤" or G"红烬圣土" or G"仲夏祝福")
+
+#showtooltip
+/cast 锯齿骨刺(通灵领主)
+/cast 申斥回响(格里恩)
+/cast 狂热鞭笞(温西尔)
+/cast 败血刃伤(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"申斥回响" or G"锯齿骨刺" or G"狂热鞭笞" or G"败血刃伤")
+
+#showtooltip
+/cast 死亡飞轮(通灵领主)
+/cast [@cursor] 共鸣箭(格里恩)
+/cast 劫掠射击(温西尔)
+/cast 野性之魂(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"共鸣箭" or G"死亡飞轮" or G"劫掠射击" or G"野性之魂")
+
+#showtooltip
+/cast 死神之躯(通灵领主)
+/cast 璀璨火花(格里恩)
+/cast 折磨之镜(温西尔)
+/cast 变易幻能(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"璀璨火花" or G"死神之躯" or G"折磨之镜" or G"变易幻能")
+
+#showtooltip
+/cast 骨尘酒(通灵领主)
+/cast 静序兵戈(格里恩)
+/cast 陨落僧众(温西尔)
+/cast 妖魂踏(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"静序兵戈" or G"骨尘酒" or G"陨落僧众" or G"妖魂踏")
+
+#showtooltip
+/cast 始源之潮(通灵领主)
+/cast [@cursor] 暮钟图腾(格里恩)
+/cast 收割链(温西尔)
+/cast 法夜输灵(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"暮钟图腾" or G"始源之潮" or G"收割链" or G"法夜输灵")
+
+#showtooltip
+/cast 屠戮箭(通灵领主)
+/cast 碎魂奉纳(格里恩)
+/cast 灾祸降临(温西尔)
+/cast 灵魂腐化(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"碎魂奉纳" or G"屠戮箭" or G"灾祸降临" or G"灵魂腐化")
+
+#showtooltip
+/cast 征服者战旗(通灵领主)
+/cast [@cursor] 晋升堡垒之矛(格里恩)
+/cast 判罪(温西尔)
+/cast 上古余震(法夜)
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"晋升堡垒之矛" or G"征服者战旗" or G"判罪" or G"上古余震")

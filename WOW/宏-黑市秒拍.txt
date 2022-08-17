@@ -1,0 +1,1 @@
+/run C_BlackMarket.RequestItems()N=C_BlackMarket.GetNumItems()for i=1,N do M=select(1, C_BlackMarket.GetItemInfoByIndex(i))D=select(16, C_BlackMarket.GetItemInfoByIndex(i))if M=="迅捷祖利安猛虎" then C_BlackMarket.ItemPlaceBid(D, 9530000000)end end

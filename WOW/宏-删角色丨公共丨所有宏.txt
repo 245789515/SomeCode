@@ -1,0 +1,6 @@
+删除角色宏
+/run for i = 121,138 do DeleteMacro(121) end
+删除通用宏
+/run for i = 1,120 do DeleteMacro(1) end
+删除所有宏
+/run for i = 1,9999 do t=10000-i DeleteMacro(t) end
